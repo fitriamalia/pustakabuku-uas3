@@ -36,7 +36,7 @@ export default {
 
   <div class="intro">
     <div>
-      <div class="welcome">Daftar Peminjaman Master Buku</div>
+      <div class="welcome">Daftar Peminjaman Detail Buku</div>
     </div>
 
     <div class="container d-flex flex-column align-items-lg-center" style="margin-top: 20pt">
