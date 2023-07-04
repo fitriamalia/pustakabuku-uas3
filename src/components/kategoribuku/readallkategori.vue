@@ -147,8 +147,8 @@ export default {
 
 <style scoped>
 .intro {
-  padding-left: 300pt;
-  padding-right: 300pt;
+  padding-left: 250pt;
+  padding-right: 250pt;
   background-color: #D3D3D3;
 }
 
