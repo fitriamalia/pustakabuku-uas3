@@ -14,6 +14,7 @@
             <a class="nav-link"> <router-link to="/readallbuku" style="text-decoration: none" class="btn">Data Buku</router-link></a>
             <a class="nav-link"> <router-link to="/readallkategori" style="text-decoration: none" class="btn">Kategori Buku</router-link></a>
             <a class="nav-link"> <router-link to="/readallanggota" style="text-decoration: none" class="btn">Data Anggota</router-link></a>
+            <a class="nav-link"> <router-link to="/readallpeminjamanmaster" style="text-decoration: none" class="btn">Data Peminjaman</router-link></a>
           </div>
         </div>
       </div>
