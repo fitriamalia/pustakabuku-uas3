@@ -14,6 +14,14 @@ import KategoriBuku from "@/components/view/KategoriBuku.vue";
 import DataAnggota from "@/components/view/DataAnggota.vue";
 import readallanggota from "@/components/dataanggota/readallanggota.vue";
 import updateanggota from "@/components/dataanggota/updateanggota.vue";
+import insertpeminjamandetail from "@/components/datapeminjaman/insertpeminjamandetail.vue";
+import insertpeminjamanmaster from "@/components/datapeminjaman/insertpeminjamanmaster.vue";
+import readallpeminjamandetail from "@/components/datapeminjaman/readallpeminjamandetail.vue";
+import readallpeminjamanmaster from "@/components/datapeminjaman/readallpeminjamanmaster.vue";
+import selectbyidpeminjaman from "@/components/datapeminjaman/selectbyidpeminjaman.vue";
+import DataPeminjaman from "@/components/view/DataPeminjaman.vue";
+import selectbystatusdikembalikan from "@/components/datapeminjaman/selectbystatusdikembalikan.vue";
+import selectbystatusdipinjam from "@/components/datapeminjaman/selectbystatusdipinjam.vue";
 
 const routes = [
     {
@@ -65,6 +73,45 @@ const routes = [
         path: "/updateanggota/:nomor",
         name: "updateanggota",
         component: updateanggota
+    },
+    {
+        path: "/insertpeminjamandetail",
+        name: "insertpeminjamandetail",
+        component: insertpeminjamandetail
+    },
+    {
+        path: "/insertpeminjamanmaster",
+        name: "insertpeminjamanmaster",
+        component: insertpeminjamanmaster
+    },
+    {
+        path: "/readallpeminjamandetail",
+        name: "readallpeminjamandetail",
+        component: readallpeminjamandetail
+    },
+    {
+        path: "/readallpeminjamanmaster",
+        name: "readallpeminjamanmaster",
+        component: readallpeminjamanmaster
+    },
+    {
+        path: "/selectbyidpeminjaman",
+        name: "selectbyidpeminjaman",
+        component: selectbyidpeminjaman
+    },
+    {
+        path: "/selectbystatusdikembalikan/:status_peminjaman",
+        name: "selectbystatusdikembalikan",
+        component: selectbystatusdikembalikan
+    },
+    {
+        path: "/selectbystatusdipinjam/:status_peminjaman",
+        name: "selectbystatusdipinjam",
+        component: selectbystatusdipinjam
+    },    {
+        path: "/datapeminjaman",
+        name: "DataPeminjaman",
+        component: DataPeminjaman
     },
 ];
 
