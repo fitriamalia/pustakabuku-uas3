@@ -1,7 +1,7 @@
 <script>
 import axios from 'axios';
 
-const insertPeminjamanDetail = 'http://fitriamalia-pustakabuku.000webhostapp.com/insertpeminjamandetail.php';
+const insertPeminjamanDetail = 'https://fitriamalia-pustakabuku.000webhostapp.com/insertpeminjamandetail.php';
 
 export default {
   data(){
