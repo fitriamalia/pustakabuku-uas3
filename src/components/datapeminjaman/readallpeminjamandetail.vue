@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { ref } from 'vue';
 
-const readAllPeminjamanDetail = 'http://fitriamalia-pustakabuku.000webhostapp.com/readallpeminjamandetail.php';
+const readAllPeminjamanDetail = 'https://fitriamalia-pustakabuku.000webhostapp.com/readallpeminjamandetail.php';
 
 export default {
   data() {
