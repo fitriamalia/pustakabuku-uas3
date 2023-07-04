@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { ref } from 'vue';
 
-const selectbystatusdipinjam = 'http://fitriamalia-pustakabuku.000webhostapp.com/selectbystatuspeminjaman.php';
+const selectbystatusdipinjam = 'https://fitriamalia-pustakabuku.000webhostapp.com/selectbystatuspeminjaman.php';
 
 export default {
   data() {
