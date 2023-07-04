@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { ref } from 'vue';
 
-const selectbyidpeminjaman = 'http://fitriamalia-pustakabuku.000webhostapp.com/selectbyidpeminjaman.php';
+const selectbyidpeminjaman = 'https://fitriamalia-pustakabuku.000webhostapp.com/selectbyidpeminjaman.php';
 
 export default {
   data() {
