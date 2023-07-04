@@ -143,7 +143,7 @@ export default {
           class="form-control"
           type="text"
           v-model="insertjenis_kelamin"
-          placeholder="Jenis Kelamin"
+          placeholder="Jenis Kelamin (Laki-laki/Perempuan)"
           aria-label="default input example" /><br />
       <input
           class="form-control"
